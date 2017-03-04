@@ -67,7 +67,7 @@ play = function()
 
 	if #user[3] >= 6 then
 		update()
-		print("\nThe word were \""..newWord.."\"...\n")
+		print("\nThe word was \""..newWord.."\"...\n")
 	else
 		user[4] = user[4] + 1
 	end
