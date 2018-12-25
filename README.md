@@ -2,7 +2,14 @@
 >| Parameter | Type | Required | Description |
 >| :-: | :-: | :-: | - |
 >| a | `int` | ✔ | A number. |
->| b | `int` | ✕ | A number or `a`. <sub>(default = 0)</sub> |
+>| b | `table` | ✕ | A number. <sub>(default = 0)</sub> |
+>
+>**@b parameter's structure**:
+>
+>| Index | Type | Required | Description |
+>| :-: | :-: | :-: | - |
+>| f | `int` | ✔ | An enum from `enumerations.forum` |
+>| s | `int` | ✕ | An enum from `enumerations.section` |
 >
 >This function performs the sum, sub, mul, and div between the parameters.
 >
