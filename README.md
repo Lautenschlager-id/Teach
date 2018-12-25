@@ -4,7 +4,7 @@
 >| a | `int` | ✔ | A number. |
 >| b | `table` | ✕ | A number. <sub>(default = 0)</sub> |
 >
->**@b parameter's structure**:
+>**@`b` parameter's structure**:
 >
 >| Index | Type | Required | Description |
 >| :-: | :-: | :-: | - |
